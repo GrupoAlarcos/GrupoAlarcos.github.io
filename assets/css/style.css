@@ -18,12 +18,12 @@ body {
 }
 
 a {
-  color: rgb(81, 139, 15);
+  color: #1b7bab; 
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(135,207,50);
+  color: #0994DC;
   text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ section {
   right: 15px;
   bottom: 15px;
   z-index: 99999;
-  background: rgb(81, 139, 15);
+  background: #4154f1;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -149,7 +149,7 @@ section {
 }
 
 .back-to-top:hover {
-  background: rgb(135,207,50);
+  background: #6776f4;
   color: #fff;
 }
 
@@ -1078,7 +1078,7 @@ section {
   margin: 0 auto 25px auto;
   list-style: none;
   text-align: center;
-  background: white;
+  /*background: white;*/
   border-radius: 50px;
   padding: 2px 15px;
 }
@@ -1099,8 +1099,8 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #4154f1;
-  border-color: #4154f1;
+  color:    #0994DC;
+  border-color: #0994DC;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1112,7 +1112,7 @@ section {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(255, 255, 255, 0.75);
+  /*background: rgba(255, 255, 255, 0.75);*/
 }
 
 .portfolio .portfolio-wrap::before {
@@ -1156,8 +1156,8 @@ section {
   position: absolute;
   top: 35px;
   left: 35px;
-  border-top: 3px solid rgba(1, 41, 112, 0.2);
-  border-left: 3px solid rgba(1, 41, 112, 0.2);
+  border-top: 3px solid rgba(9, 148, 220, 0.2);
+  border-left: 3px solid rgba(135, 207, 50, 0.2);
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
@@ -1170,20 +1170,20 @@ section {
   position: absolute;
   bottom: 35px;
   right: 35px;
-  border-bottom: 3px solid rgba(1, 41, 112, 0.2);
-  border-right: 3px solid rgba(1, 41, 112, 0.2);
+  border-bottom: 3px solid rgba(9, 148, 220, 0.2);
+  border-right: 3px solid rgba(135, 207, 50, 0.2);
   transition: all 0.5s ease 0s;
   z-index: 9994;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: #0994DC;
   font-weight: 700;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: #057001;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1198,7 +1198,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: #0994DC;
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1215,7 +1215,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: #0994DC;
 }
 
 .portfolio .portfolio-wrap:hover img {
@@ -1265,11 +1265,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #4154f1;
+  border: 1px solid #0994DC;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4154f1;
+  background-color: #0994DC;
 }
 
 .portfolio-details .portfolio-info {
